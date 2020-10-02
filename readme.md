@@ -68,3 +68,18 @@ Here's a list of details that I'll check, for grading your project. Use it to gu
 Fork this repo and clone your fork. You have until 16h30 to complete the project. Stop coding a bit earlier to take some time documenting your project in the readme.
 
 Good luck team 🔥💪 and happy coding 👍
+
+
+## Students report.
+
+### File structure.
+I created three new files index.html, stylr.css and script.js. Added some elements to the index.html file and added their styles to the style.css. Then, started to work with the script.js file. Grabbed all the elements that might be needed and fetch the data from the given url. Added some functions for fetching the data, displaying the data into html and also handling the buttons.
+
+### Improvements.
+Use of filter about the discussedOn attribute. Added two filters for the next topic and the past topic. Sort the ratio between likes and dislikes in the topic.
+
+### Experiance.
+Filter and find with all the buttons are not working and also the upvotes attribute and downvotes attribute for increasing the score is not defined. Localestorage is not working which I don't know why. Also with the submit form, I can see the topic which I have added in the url but I cannot see it in the list even if I have pushed it.
+
+
+

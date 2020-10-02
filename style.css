@@ -70,6 +70,18 @@ h2 {
     color: deeppink;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.upvote_score,
+.downvote_score {
+    margin-inline-start: -132px;
+    margin-block-start: 16px;
+}
+
 .up_vote,
 .down_vote {
     color: blue;
