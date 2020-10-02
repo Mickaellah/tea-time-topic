@@ -13,12 +13,11 @@ h1 {
     font-size: 48px;
 }
 
-svg {
-    margin-block-start: 35px;
-}
-
-.svg_1 {
+.svg_1,
+.svg_2 {
     margin-inline-end: 48px;
+    margin-block-start: 35px;
+    fill: purple;
 }
 
 .svg_2 {
@@ -68,15 +67,30 @@ h2 {
 }
 
 .archive {
-    margin-block-start: -48px;
+    color: deeppink;
+}
+
+.up_vote,
+.down_vote {
+    color: blue;
+}
+
+.delete {
+    color: deepskyblue;
 }
 
 .archive,
 .up_vote,
-.down_vote {
+.down_vote,
+.delete {
     border: none;
     background: none;
+    width: 48px;
+    height: 48px;
 }
 
+.date {
+    color: orange;
+}
 
 

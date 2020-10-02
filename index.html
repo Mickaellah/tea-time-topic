@@ -21,32 +21,34 @@
                     Add a new topic
                 </h2>
             </header>
-            <form class="form">
+            <form class="form" autocomplete="off">
                 <input type="text"  id="topic" class="idea" name="topic" placeholder="Write your topic idea here">
                 <button type="submit" class="submit_button">Submit</button>
             </form>
         </section>
-        <section>
-            <header>
-                <h2>
-                    Next topics
-                </h2>
-            </header>
-            <nav class="navigation_1">
-                <ul class="navigation_1__container">
-
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <header>
-                <h2>Past topics</h2>
-            </header>
-            <nav class="navigation_2">
-                <ul class="navigation_2__container">
-
-                </ul>
-            </nav>
+        <section class="topic">
+            <article class="next_topic">
+                <header>
+                    <h2>
+                        Next topics
+                    </h2>
+                </header>
+                <nav class="navigation_1">
+                    <ul class="navigation_1__container">
+    
+                    </ul>
+                </nav>
+            </article>
+            <article class="past_topic">
+                <header>
+                    <h2>Past topics</h2>
+                </header>
+                <nav class="navigation_2">
+                    <ul class="navigation_2__container">
+    
+                    </ul>
+                </nav>
+            </article>
         </section>
     </main>
     <script src="./script.js"></script>
